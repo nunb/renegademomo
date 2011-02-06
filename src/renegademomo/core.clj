@@ -1,11 +1,6 @@
 (ns renegademomo.core
-  (:require [appengine-magic.core :as ae]))
+  (:require [appengine-magic.core :as ae])
+  (:use [renegademomo.impl.routes :only [rm]]))
 
 
-(defn renegademomo-app-handler [request]
-  {:status 200
-   :headers {"Content-Type" "text/plain"}
-   :body "Hello, world!"})
-
-
-(ae/def-appengine-app renegademomo-app #'renegademomo-app-handler)
+(ae/def-appengine-app renegademomo-app #'rm)
