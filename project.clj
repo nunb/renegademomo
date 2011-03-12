@@ -4,7 +4,5 @@
                  [org.clojure/clojure-contrib "1.2.0"]
                  [compojure "0.5.3"]
                  [hiccup "0.3.2"]]
-  :dev-dependencies [[appengine-magic "0.3.2"]
-                     [swank-clojure "1.2.0"]
-                     [scriptjure "0.1.20"]
-                     [gaka "0.2.0"]])
+  :dev-dependencies [[appengine-magic "0.3.4"]
+                     [swank-clojure "1.2.0"]])

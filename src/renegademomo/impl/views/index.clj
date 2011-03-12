@@ -6,7 +6,6 @@
   []
   (ph/html5 
    [:head
-    (ph/include-css "static/css/index.css")]
+    [:h1 "Welcome!"]]
    [:body
-    [:p "I'm a pretty paragraph"]
-    (ph/include-js "static/js/index.js")]))
+    [:p "I'm a pretty paragraph"]]))
